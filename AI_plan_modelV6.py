@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from keras.api.models import Sequential
+from tensorflow.keras.models import Sequential
 from keras.api.layers import Dense, Dropout
 from keras.api.callbacks import EarlyStopping
 from flask import Flask, request, jsonify
