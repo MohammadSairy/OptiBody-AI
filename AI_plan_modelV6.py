@@ -1,35 +1,13 @@
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.callbacks import EarlyStopping
 from flask import Flask, request, jsonify
+from keras.models import load_model
+import pandas as pd
 import json
 import os
-import matplotlib.pyplot as plt
-
-# File to store memory
-MEMORY_FILE = "memory.json"
-
-# Load memory from file
-def load_memory():
-    if os.path.exists(MEMORY_FILE):
-        with open(MEMORY_FILE, 'r') as file:
-            return json.load(file)
-    return {}
-
-# Save memory to file
-def save_memory(memory):
-    with open(MEMORY_FILE, 'w') as file:
-        json.dump(memory, file)
-
-# Initialize memory
-memory = load_memory()
 
 # Load and preprocess the dataset
 gym_data = pd.read_csv('gym_exercise_dataset_V.2.csv')
 
-# One-hot encode the dataset
+# Preprocess the dataset
 categorical_columns = ['Equipment', 'Mechanics', 'Force', 'Main_muscle']
 gym_data_encoded = pd.get_dummies(gym_data, columns=categorical_columns, drop_first=True)
 
@@ -37,34 +15,16 @@ gym_data_encoded = pd.get_dummies(gym_data, columns=categorical_columns, drop_fi
 X = gym_data_encoded.drop(columns=['Exercise Name', 'Difficulty (1-5)'])
 y = pd.get_dummies(gym_data['Exercise Name'])  # Multi-label output: one-hot encoded exercise names
 
-# Split into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# Load the pretrained AI model
+model = load_model('gym_exercise_model.h5')
 
-# Define and train the AI model
-model = Sequential([
-    Dense(512, activation='relu', input_shape=(X_train.shape[1],)),
-    Dropout(0.3),
-    Dense(256, activation='relu'),
-    Dropout(0.2),
-    Dense(128, activation='relu'),
-    Dropout(0.2),
-    Dense(y_train.shape[1], activation='sigmoid')  # Sigmoid for multi-label probabilities
-])
 
-model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-
-# Early stopping to prevent overfitting
-early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
-
-# Train the model
-model.fit(X_train, y_train, epochs=50, batch_size=64, validation_split=0.2, callbacks=[early_stopping])
-
-# Helper functions
+# Step 1: Filter dataset based on user constraints
 def filter_exercises(data, profile):
     filtered_data = data[
         (data["Difficulty (1-5)"] >= profile["difficulty_range"][0]) &
         (data["Difficulty (1-5)"] <= profile["difficulty_range"][1])
-    ]
+        ]
     filtered_data = filtered_data[
         filtered_data.apply(lambda row: any(eq in row["Equipment"] for eq in profile["equipment"]), axis=1)
     ]
@@ -73,32 +33,40 @@ def filter_exercises(data, profile):
             filtered_data = filtered_data[filtered_data["Main_muscle"] != injury.capitalize()]
     return filtered_data
 
+
+# Step 2: Prepare filtered data for prediction
 def prepare_filtered_data(filtered_data, original_columns, categorical_columns):
+    # One-hot encode filtered data
     encoded_filtered = pd.get_dummies(filtered_data, columns=categorical_columns, drop_first=True)
+    # Align columns with training data
     encoded_filtered = encoded_filtered.reindex(columns=original_columns, fill_value=0)
     return encoded_filtered.astype('float32')
 
-def rank_exercises_with_memory(filtered_data, model, original_columns, memory, user_key, recommended_count=6, compound_count=2):
+
+# Step 3: Rank exercises using the model
+def rank_exercises(filtered_data, model, original_columns, recommended_count=6, compound_count=2):
     if filtered_data.empty:
         return pd.DataFrame(columns=['Exercise Name', 'Suitability', 'Main_muscle'])
 
-    encoded_filtered = prepare_filtered_data(filtered_data, original_columns, ['Equipment', 'Mechanics', 'Force', 'Main_muscle'])
+    # Prepare the filtered dataset
+    encoded_filtered = prepare_filtered_data(filtered_data, original_columns,
+                                             ['Equipment', 'Mechanics', 'Force', 'Main_muscle'])
+
+    # Predict suitability
     predictions = model.predict(encoded_filtered)
+
+    # Add suitability scores
     filtered_data = filtered_data.copy()
     filtered_data['Suitability'] = predictions.mean(axis=1)
 
-    if user_key in memory:
-        for exercise_name, row in filtered_data.iterrows():
-            if exercise_name in memory[user_key]:
-                frequency = memory[user_key][exercise_name]
-                penalty = 0.1 * frequency
-                filtered_data.at[exercise_name, 'Suitability'] *= (1 - penalty)
-
+    # Sort by Suitability
     filtered_data = filtered_data.sort_values(by='Suitability', ascending=False)
 
+    # Separate compound and isolation exercises
     compound_exercises = filtered_data[filtered_data['Mechanics'] == 'Compound']
     isolation_exercises = filtered_data[filtered_data['Mechanics'] != 'Compound']
 
+    # Select top diverse compound exercises
     muscle_groups_seen = set()
     selected_compound_exercises = []
 
@@ -110,6 +78,7 @@ def rank_exercises_with_memory(filtered_data, model, original_columns, memory, u
         if len(selected_compound_exercises) >= compound_count:
             break
 
+    # Fill the rest with diverse isolation exercises
     muscle_groups_seen.update([row['Main_muscle'] for row in selected_compound_exercises])
     final_recommendations = selected_compound_exercises
 
@@ -121,48 +90,38 @@ def rank_exercises_with_memory(filtered_data, model, original_columns, memory, u
         if len(final_recommendations) >= recommended_count:
             break
 
+    # Convert back to DataFrame and assign proper column names
     final_recommendations_df = pd.DataFrame(final_recommendations, columns=filtered_data.columns)
-
-    if user_key not in memory:
-        memory[user_key] = {}
-    for exercise_name in final_recommendations_df['Exercise Name']:
-        if exercise_name in memory[user_key]:
-            memory[user_key][exercise_name] += 1
-        else:
-            memory[user_key][exercise_name] = 1
 
     return final_recommendations_df
 
-# Flask API setup
+
+# Flask app setup
 app = Flask(__name__)
+
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
-    user_profile = request.json
+    try:
+        # Get the user profile from the request
+        user_profile = request.json
 
-    # Provide default values for missing keys
-    difficulty_range = user_profile.get("difficulty_range", [1, 5])
-    equipment = user_profile.get("equipment", [])
-    injuries = user_profile.get("injuries", [])
+        # Filter exercises based on the user profile
+        filtered_exercises = filter_exercises(gym_data, user_profile)
 
-    # Ensure the profile has all necessary keys
-    user_profile = {
-        "difficulty_range": difficulty_range,
-        "equipment": equipment,
-        "injuries": injuries
-    }
+        # Rank exercises using the pretrained model
+        ranked_exercises = rank_exercises(filtered_exercises, model, X.columns, recommended_count=6, compound_count=2)
 
-    filtered_exercises = filter_exercises(gym_data, user_profile)
-    ranked_exercises = rank_exercises_with_memory(
-        filtered_exercises, model, X.columns, memory,
-        user_key="user_profile_key"
-    )
+        # If no exercises are found
+        if ranked_exercises.empty:
+            return jsonify({"message": "No recommendations could be generated."})
 
-    if ranked_exercises.empty:
-        return jsonify({"message": "No recommendations could be generated."})
-    else:
+        # Return the ranked exercises as JSON
         return ranked_exercises[['Exercise Name', 'Main_muscle', 'Mechanics', 'Suitability']].to_json(orient='records')
+
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(debug=True, host="0.0.0.0", port=8080)
