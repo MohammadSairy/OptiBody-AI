@@ -18,6 +18,7 @@ y = pd.get_dummies(gym_data['Exercise Name'])  # Multi-label output: one-hot enc
 # Load the pretrained AI model
 model = load_model('gym_exercise_model.h5')
 
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Step 1: Filter dataset based on user constraints
 def filter_exercises(data, profile):
