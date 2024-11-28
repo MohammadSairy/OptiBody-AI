@@ -1,0 +1,673 @@
+Exercise Name,Equipment,Mechanics,Force,Main_muscle,Difficulty (1-5)
+Neck Flexion,Cable,Isolated,Pull,Neck,2
+Neck Flexion,Lever (plate loaded),Isolated,Pull,Neck,2
+Lateral Neck Flexion,Lever (plate loaded),Isolated,Pull,Neck,2
+Neck Flexion,Lever (selectorized),Isolated,Pull,Neck,2
+Lateral Neck Flexion,Lever (selectorized),Isolated,Pull,Neck,2
+Neck Flexion,Weighted,Isolated,Pull,Neck,2
+Lateral Neck Flexion,Weighted,Isolated,Pull,Neck,2
+Wall Front Neck Bridge,Body Weight,Isolated,Push & Pull,Neck,3
+Wall Side Neck Bridge,Body Weight,Isolated,Pull,Neck,3
+Neck Flexion,Suspended,Isolated,Pull,Neck,2
+Lateral Neck Flexion,Suspended,Isolated,Pull,Neck,2
+Neck Extension,Cable,Isolated,Pull,Neck,2
+Neck Extension,Lever (plate loaded),Isolated,Pull,Neck,2
+Neck Extension,Lever (selectorized),Isolated,Pull,Neck,2
+Seated Neck Extension,Weighted,Isolated,Pull,Neck,2
+Seated Neck Extension:  Harness,Weighted,Isolated,Pull,Neck,3
+Neck Retraction,Band Resistive,Isolated,Pull,Neck,1
+Wall Rear Neck Bridge,Body Weight,Isolated,Pull,Neck,3
+Lying Neck Retraction,Isometric,Isolated,Pull,Neck,1
+Neck Extension,Suspended,Isolated,Pull,Neck,2
+Front Raise,Barbell,Isolated,Push,Shoulder,2
+Military Press,Barbell,Compound,Push,Shoulder,4
+Military Press:  Seated,Barbell,Compound,Push,Shoulder,3
+Front Raise,Cable,Isolated,Push,Shoulder,2
+Front Raise:  Alternating,Cable,Isolated,Push,Shoulder,2
+Front Raise:  One Arm,Cable,Isolated,Push,Shoulder,2
+Shoulder Press,Cable,Compound,Push,Shoulder,3
+Shoulder Press:  Seated,Cable,Compound,Push,Shoulder,3
+Arnold Press,Dumbbell,Compound,Push,Shoulder,4
+Front Raise,Dumbbell,Isolated,Push,Shoulder,2
+Front Raise:  Alternating,Dumbbell,Isolated,Push,Shoulder,2
+Shoulder Press,Dumbbell,Compound,Push,Shoulder,3
+Shoulder Press:  One Arm,Dumbbell,Compound,Push,Shoulder,3
+Military Press,Lever (plate loaded),Compound,Push,Shoulder,4
+Reclined Shoulder Press,Lever (plate loaded),Compound,Push,Shoulder,3
+Shoulder Press,Lever (plate loaded),Compound,Push,Shoulder,3
+Reclined Shoulder Press,Lever (selectorized),Compound,Push,Shoulder,3
+Shoulder Press,Lever (selectorized),Compound,Push,Shoulder,3
+Shoulder Press:  Parallel Grip,Lever (selectorized),Compound,Push,Shoulder,3
+Shoulder Press,Sled,Compound,Push,Shoulder,3
+Shoulder Press,Smith,Compound,Push,Shoulder,3
+Pike Press (between benches),Body Weight,Compound,Push,Shoulder,4
+Pike Press (between benches):  Elevated,Body Weight,Compound,Push,Shoulder,5
+Front Raise,Suspended,Isolated,Push,Shoulder,2
+Upright Row,Barbell,Compound,Pull,Shoulder,3
+Lateral Raise,Cable,Isolated,Pull,Shoulder,2
+Lateral Raise:  One Arm,Cable,Isolated,Pull,Shoulder,2
+Upright Row,Cable,Compound,Pull,Shoulder,3
+Upright Row:  One Arm,Cable,Compound,Pull,Shoulder,3
+Upright Row:  with rope,Cable,Compound,Pull,Shoulder,3
+Y Raise,Cable,Isolated,Pull,Shoulder,3
+Incline Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,3
+Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Upright Row,Dumbbell,Compound,Pull,Shoulder,3
+Upright Row:  One Arm,Dumbbell,Compound,Pull,Shoulder,3
+Lateral Raise,Lever (plate loaded),Isolated,Pull,Shoulder,2
+Lateral Raise,Lever (selectorized),Isolated,Pull,Shoulder,2
+Lateral Raise:  other machine,Lever (selectorized),Isolated,Pull,Shoulder,2
+Upright Row,Smith,Compound,Pull,Shoulder,3
+Y Raise,Suspended,Isolated,Pull,Shoulder,3
+Rear Delt Row,Barbell,Compound,Pull,Shoulder,3
+Reverse Fly,Cable,Isolated,Pull,Shoulder,2
+Rear Delt Row,Cable,Compound,Pull,Shoulder,3
+Rear Delt Row:  Standing Rear Delt Row (stirrups),Cable,Compound,Pull,Shoulder,3
+Rear Lateral Raise,Cable,Isolated,Pull,Shoulder,2
+Rear Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Rear Delt Row,Dumbbell,Compound,Pull,Shoulder,3
+Seated Rear Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Lying Rear Lateral Raise,Lever (plate loaded),Isolated,Pull,Shoulder,2
+Seated Rear Delt Row,Lever (plate loaded),Compound,Pull,Shoulder,3
+Seated Rear Delt Row:  alternative machine,Lever (plate loaded),Compound,Pull,Shoulder,3
+Lying Rear Lateral Raise,Lever (selectorized),Isolated,Pull,Shoulder,2
+Seated Rear Delt Row,Lever (selectorized),Compound,Pull,Shoulder,3
+Seated Reverse Fly,Lever (selectorized),Isolated,Pull,Shoulder,2
+Seated Reverse Fly:  pronated grip,Lever (selectorized),Isolated,Pull,Shoulder,2
+Rear Delt Row,Smith,Compound,Pull,Shoulder,3
+Rear Delt Inverted Row (high bar),Body Weight,Compound,Pull,Shoulder,4
+Rear Delt Inverted Row (on hips),Body Weight,Compound,Pull,Shoulder,4
+Rear Delt Row,Suspended,Compound,Pull,Shoulder,3
+Reverse Fly,Suspended,Compound,Pull,Shoulder,2
+Front Lateral Raise,Cable,Isolated,Pull,Shoulder,2
+Front Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Full Can Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Lying Lateral Raise,Dumbbell,Isolated,Pull,Shoulder,2
+Triceps Dip,Assisted,Compound,Push,Upper Arms,4
+Triceps Dip:  kneeling,Assisted,Compound,Push,Upper Arms,3
+Close Grip Bench Press,Barbell,Compound,Push,Upper Arms,3
+Lying Triceps Extension,Barbell,Isolated,Push,Upper Arms,3
+Lying Triceps Extension:  Skull Crusher,Barbell,Isolated,Push,Upper Arms,3
+Triceps Extension,Barbell,Isolated,Push,Upper Arms,2
+Bent-over Triceps Extension,Cable,Isolated,Push,Upper Arms,2
+Pushdown,Cable,Isolated,Push,Upper Arms,2
+Pushdown:  One Arm,Cable,Isolated,Push,Upper Arms,2
+Pushdown:  with back support,Cable,Isolated,Push,Upper Arms,2
+Pushdown:  with V-bar attachment,Cable,Isolated,Push,Upper Arms,2
+Triceps Dip,Cable,Compound,Push,Upper Arms,4
+Triceps Extension,Cable,Isolated,Push,Upper Arms,2
+Triceps Extension:  with rope,Cable,Isolated,Push,Upper Arms,2
+Kickback,Dumbbell,Isolated,Push,Upper Arms,2
+Lying Triceps Extension,Dumbbell,Isolated,Push,Upper Arms,3
+One Arm Triceps Extension (on bench),Dumbbell,Isolated,Push,Upper Arms,2
+Triceps Extension,Dumbbell,Isolated,Push,Upper Arms,2
+Close Grip Bench Press,Lever (plate loaded),Compound,Push,Upper Arms,3
+Triceps Extension,Lever (plate loaded),Isolated,Push,Upper Arms,2
+Triceps Dip,Lever (plate loaded),Compound,Push,Upper Arms,4
+Triceps Dip,Lever (selectorized),Compound,Push,Upper Arms,4
+Triceps Dip:  alternative machine,Lever (selectorized),Compound,Push,Upper Arms,4
+Triceps Extension,Lever (selectorized),Isolated,Push,Upper Arms,2
+Triceps Extension:  with preacher pad New!,Lever (selectorized),Isolated,Push,Upper Arms,3
+Standing Triceps Dip,Sled,Isolated,Push,Upper Arms,3
+Close Grip Bench Press,Smith,Compound,Push,Upper Arms,3
+Bench Dip,Weighted,Compound,Push,Upper Arms,3
+Triceps Dip,Weighted,Compound,Push,Upper Arms,4
+Triceps Dip,Band-assisted,Compound,Push,Upper Arms,4
+Bench Dip,Body Weight,Compound,Push,Upper Arms,3
+Bench Dip:  heel on floor,Body Weight,Compound,Push,Upper Arms,2
+Close Grip Push-up,Body Weight,Compound,Push,Upper Arms,3
+Close Grip Push-up:  on knees,Body Weight,Compound,Push,Upper Arms,2
+Close Grip Push-up:  Incline on bar,Body Weight,Compound,Push,Upper Arms,3
+Triceps Dip,Body Weight,Compound,Push,Upper Arms,4
+Triceps Extension,Suspended,Isolated,Push,Upper Arms,2
+Triceps Dip,Self-assisted,Compound,Push,Upper Arms,4
+Curl,Barbell,Isolated,Pull,Upper Arms,2
+Alternating Curl,Cable,Isolated,Pull,Upper Arms,2
+Curl,Cable,Isolated,Pull,Upper Arms,2
+Curl:  with stirrups,Cable,Isolated,Pull,Upper Arms,2
+Curl:  One Arm Curl,Cable,Isolated,Pull,Upper Arms,2
+Curl,Dumbbell,Isolated,Pull,Upper Arms,2
+Incline Curl,Dumbbell,Isolated,Pull,Upper Arms,3
+Curl,Lever (selectorized),Isolated,Pull,Upper Arms,2
+Inverted Biceps Row,Body Weight,Compound,Pull,Upper Arms,3
+Preacher Curl,Barbell,Isolated,Pull,Upper Arms,3
+Prone Incline Curl,Barbell,Isolated,Pull,Upper Arms,3
+Concentration Curl,Cable,Isolated,Pull,Upper Arms,2
+Preacher Curl,Cable,Isolated,Pull,Upper Arms,3
+Preacher Curl: Stirrups,Cable,Isolated,Pull,Upper Arms,3
+Concentration Curl,Dumbbell,Isolated,Pull,Upper Arms,2
+Preacher Curl,Dumbbell,Isolated,Pull,Upper Arms,3
+Preacher Curl,Lever (plate loaded),Isolated,Pull,Upper Arms,3
+Preacher Curl: arms high,Lever (plate loaded),Isolated,Pull,Upper Arms,3
+Preacher Curl,Lever (selectorized),Isolated,Pull,Upper Arms,3
+Preacher Curl: arms high,Lever (selectorized),Isolated,Pull,Upper Arms,3
+Arm Curl,Suspended,Isolated,Pull,Upper Arms,2
+Reverse Curl,Barbell,Isolated,Pull,Forearm,2
+Hammer Curl,Cable,Isolated,Pull,Forearm,2
+Reverse Curl,Cable,Isolated,Pull,Forearm,2
+Hammer Curl,Dumbbell,Isolated,Pull,Forearm,2
+Reverse Curl,Lever (selectorized),Isolated,Pull,Forearm,2
+Wrist Curl,Barbell,Isolated,Pull,Forearm,1
+Wrist Curl,Cable,Isolated,Pull,Forearm,1
+Wrist Curl,Dumbbell,Isolated,Pull,Forearm,1
+Grip,Lever (plate loaded),Isolated,Pull,Forearm,1
+Wrist Curl,Lever (plate loaded),Isolated,Pull,Forearm,1
+Grip,Lever (selectorized),Isolated,Pull,Forearm,1
+Wrist Curl,Lever (selectorized),Isolated,Pull,Forearm,1
+One Hand Grip,Sled (selectorized),Isolated,Pull,Forearm,2
+One Hand,Sled (plate loaded),Isolated,Pull,Forearm,2
+Reverse Wrist Curl,Barbell,Isolated,Pull,Forearm,1
+Reverse Wrist Curl,Cable,Isolated,Pull,Forearm,1
+Reverse Wrist Curl,Dumbbell,Isolated,Pull,Forearm,1
+Reverse Wrist Curl,Lever (plate loaded),Isolated,Pull,Forearm,1
+Reverse Wrist Curl,Lever (selectorized),Isolated,Pull,Forearm,1
+Seated Pronation ,Dumbbell,Isolated,Push,Forearm,1
+Seated Pronation ,Lever (selectorized),Isolated,Push,Forearm,1
+Seated Supination,Dumbbell,Isolated,Pull,Forearm,1
+Seated Supination,Lever (selectorized),Isolated,Pull,Forearm,1
+Bent-over Row,Barbell,Compound,Pull,Back,3
+Bent-over Row:  Underhand,Barbell,Compound,Pull,Back,3
+One Arm Bent-over Row,Cable,Compound,Pull,Back,3
+One Arm Straight Back Seated High Row,Cable,Compound,Pull,Back,3
+Seated Row,Cable,Compound,Pull,Back,2
+Seated Row:  Straight Back,Cable,Compound,Pull,Back,2
+Seated Wide Grip Row,Cable,Compound,Pull,Back,2
+Seated Wide Grip Row:  Straight Back,Cable,Compound,Pull,Back,2
+Bent-over Row,Dumbbell,Compound,Pull,Back,3
+Lying Row,Dumbbell,Compound,Pull,Back,2
+Incline Row,Lever (plate loaded),Compound,Pull,Back,3
+Incline Row:  Close Grip,Lever (plate loaded),Compound,Pull,Back,3
+Seated Rows,Lever (plate loaded),Compound,Pull,Back,2
+Seated Rows:  Narrow Grip,Lever (plate loaded),Compound,Pull,Back,2
+"Seated Rows:  Wide Grip
+
+Low Bar
+
+",Lever (plate loaded),Compound,Pull,Back,2
+Seated Rows (Others),Lever (plate loaded),Compound,Pull,Back,2
+Seated Rows (Others):  Seated Low Row,Lever (plate loaded),Compound,Pull,Back,2
+Seated Rows (Others):  Seated High Row,Lever (plate loaded),Compound,Pull,Back,2
+T-bar Row,Lever (plate loaded),Compound,Pull,Back,3
+T-bar Row:  Close grip,Lever (plate loaded),Compound,Pull,Back,3
+Seated Row,Lever (selectorized),Compound,Pull,Back,2
+Seated Row:  Wide Grip,Lever (selectorized),Compound,Pull,Back,2
+Seated Row (no chest pad),Lever (selectorized),Compound,Pull,Back,3
+Seated Row (no chest pad):  Straight Back,Lever (selectorized),Compound,Pull,Back,3
+Underhand Seated Row,Lever (selectorized),Compound,Pull,Back,2
+Bent-over Row,Smith,Compound,Pull,Back,3
+Inverted Row,Weighted,Compound,Pull,Back,3
+Inverted Row,Body Weight,Compound,Pull,Back,3
+Inverted Row:  Feet Elevated,Body Weight,Compound,Pull,Back,4
+Inverted Row:  High Bar,Body Weight,Compound,Pull,Back,3
+Inverted Row:  On Hips,Body Weight,Compound,Pull,Back,3
+Inverted Row,Suspended,Compound,Pull,Back,3
+Inverted Row:  One Arm,Suspended,Compound,Pull,Back,4
+Row,Suspended,Compound,Pull,Back,2
+Row:  One Arm,Suspended,Compound,Pull,Back,3
+Pull-up (open-centered bar),Assisted (machine),Compound,Pull,Back,4
+Pull-up (open-centered bar):  Standing,Assisted (machine),Compound,Pull,Back,4
+Parallel Close Grip Pull-up,Assisted (machine),Compound,Pull,Back,4
+Pullover,Barbell,Isolated,Pull,Back,2
+Bent-over Pullover,Cable,Isolated,Pull,Back,3
+Close Grip Pulldown,Cable,Compound,Pull,Back,2
+Pulldown,Cable,Compound,Pull,Back,2
+Pulldown:  Parallel Grip Pulldown,Cable,Compound,Pull,Back,2
+Pullup/Chinup,Cable,Compound,Pull,Back,4
+Pullup/Chinup:  Chinup,Cable,Compound,Pull,Back,4
+Pullup/Chinup:  Parallel Close Grip Pull-up,Cable,Compound,Pull,Back,4
+Pullup/Chinup:  Parallel Grip Pull-up,Cable,Compound,Pull,Back,4
+Pullup/Chinup:  Pull-up,Cable,Compound,Pull,Back,4
+Underhand Pulldown,Cable,Compound,Pull,Back,2
+Pulldown,Lever (plate loaded),Compound,Pull,Back,2
+Underhand Pulldown,Lever (plate loaded),Compound,Pull,Back,2
+Close Grip Pulldown,Lever (selectorized),Compound,Pull,Back,2
+Front Pulldown,Lever (selectorized),Compound,Pull,Back,2
+Pulldown,Lever (selectorized),Compound,Pull,Back,2
+Pullover,Lever (selectorized),Isolated,Pull,Back,2
+Chin-up,Weighted,Compound,Pull,Back,4
+Parallel Close Grip Pull-up,Weighted,Compound,Pull,Back,4
+Pull-up,Weighted,Compound,Pull,Back,4
+Archer Pull-up,Band-assisted,Compound,Pull,Back,5
+Chin-up,Band-assisted,Compound,Pull,Back,4
+Pull-up,Band-assisted,Compound,Pull,Back,4
+Pull-up:  Parallel Grip,Band-assisted,Compound,Pull,Back,4
+Archer Pull-up,Body Weight,Compound,Pull,Back,5
+Chin-up,Body Weight,Compound,Pull,Back,4
+One Arm Pull-up New!,Body Weight,Compound,Pull,Back,5
+Parallel Close Grip Pull-up,Body Weight,Compound,Pull,Back,4
+Pull-up,Body Weight,Compound,Pull,Back,4
+Chin-up,Assisted (partner),Compound,Pull,Back,4
+Pull-up,Assisted (partner),Compound,Pull,Back,4
+Chin-up,Self-assisted,Compound,Pull,Back,4
+Pull-up,Self-assisted,Compound,Pull,Back,4
+Pull-up,Suspension,Compound,Pull,Back,4
+Pull-up:  Self-assisted,Suspension,Compound,Pull,Back,3
+Shrug,Barbell,Isolated,Pull,Back,1
+Trap Bar Shrug,Barbell,Isolated,Pull,Back,2
+Shrug,Cable,Isolated,Pull,Back,1
+Shrug with Stirrups,Cable,Isolated,Pull,Back,1
+Shrug,Dumbbell,Isolated,Pull,Back,1
+Seated Shrug,Lever (plate loaded),Isolated,Pull,Back,1
+Shrug,Lever (plate loaded),Isolated,Pull,Back,1
+Shrug,Lever (selectorized),Isolated,Pull,Back,1
+Gripless Shrug,Sled,Isolated,Pull,Back,1
+Shrug,Smith,Isolated,Pull,Back,1
+Inverted Shrug,Body Weight,Isolated,Pull,Back,2
+Inverted Shrug,Suspended,Isolated,Pull,Back,2
+Seated Shoulder External Rotation,Cable,Isolated,Pull,Back,1
+Seated Shoulder External Rotation:  Standing,Cable,Isolated,Pull,Back,1
+Lying Shoulder External Rotation,Dumbbell,Isolated,Pull,Back,1
+Upright Shoulder External Rotation (with support),Dumbbell,Isolated,Pull,Back,1
+Shoulder External Rotation,Lever (plate loaded),Isolated,Pull,Back,1
+Shoulder External Rotation,Lever (selectorized),Isolated,Pull,Back,1
+Shoulder External Rotation,Suspended,Isolated,Pull,Back,1
+Standing Shoulder Internal Rotation,Cable,Isolated,Pull,Back,1
+Shoulder Internal Rotation,Dumbbell,Isolated,Pull,Back,1
+Shoulder Internal Rotation:  on floor,Dumbbell,Isolated,Pull,Back,1
+Shoulder Internal Rotation,Lever (plate loaded),Isolated,Pull,Back,1
+Shoulder Internal Rotation,Lever (selectorized),Isolated,Pull,Back,1
+Chest Dip,Assisted,Compound,Push,Chest,3
+Chest Dip:  kneeling,Assisted,Compound,Push,Chest,2
+Bench Press,Barbell,Compound,Push,Chest,3
+Bench Press:  Power Lift,Barbell,Compound,Push,Chest,4
+Decline Bench Press,Barbell,Compound,Push,Chest,3
+Flies,Cable,Isolated,Push,Chest,2
+Flies:  Lying Fly,Cable,Isolated,Push,Chest,2
+Flies:  Seated Fly,Cable,Isolated,Push,Chest,2
+Flies:  Standing Fly,Cable,Isolated,Push,Chest,2
+Presses,Cable,Compound,Push,Chest,3
+Presses:  Bench Press,Cable,Compound,Push,Chest,3
+"Presses:  Chest Press
+
+Standing
+
+",Cable,Compound,Push,Chest,3
+Presses:  Decline Chest Press,Cable,Compound,Push,Chest,3
+Bench Press,Dumbbell,Compound,Push,Chest,3
+Decline Bench Press,Dumbbell,Compound,Push,Chest,3
+Fly,Dumbbell,Isolated,Push,Chest,2
+Pullover,Dumbbell,Isolated,Push,Chest,2
+Bench Press,Lever (plate loaded),Compound,Push,Chest,3
+Chest Dip,Lever (plate loaded),Compound,Push,Chest,3
+Chest Press,Lever (plate loaded),Compound,Push,Chest,3
+Decline Chest Press,Lever (plate loaded),Compound,Push,Chest,3
+Chest Dip,Lever (selectorized),Compound,Push,Chest,3
+Flies,Lever (selectorized),Isolated,Push,Chest,2
+Flies:  Lying Fly,Lever (selectorized),Isolated,Push,Chest,2
+Flies:  Pec Deck Fly,Lever (selectorized),Isolated,Push,Chest,2
+Flies:  Seated Fly,Lever (selectorized),Isolated,Push,Chest,2
+Presses,Lever (selectorized),Compound,Push,Chest,3
+Presses:  Bench Press,Lever (selectorized),Compound,Push,Chest,3
+"Presses:  Chest Press
+
+alternative machine
+
+",Lever (selectorized),Compound,Push,Chest,3
+Presses:  Decline Chest Press,Lever (selectorized),Compound,Push,Chest,3
+Standing Chest Dip,Sled,Compound,Push,Chest,3
+Bench Press,Smith,Compound,Push,Chest,3
+Decline Bench Press,Smith,Compound,Push,Chest,3
+Chest Dip,Weighted,Compound,Push,Chest,3
+Push-up,Weighted,Compound,Push,Chest,2
+Chest Dip,Band-assisted,Compound,Push,Chest,3
+Chest Dip,Body Weight,Compound,Push,Chest,3
+Push-up,Body Weight,Compound,Push,Chest,2
+Push-up:  Archer,Body Weight,Compound,Push,Chest,3
+Push-up:  Incline,Body Weight,Compound,Push,Chest,2
+Push-up:  on knees,Body Weight,Compound,Push,Chest,1
+Chest Dip,Self-assisted,Compound,Push,Chest,3
+Chest Dip,Suspended,Compound,Push,Chest,3
+Chest Press,Suspended,Compound,Push,Chest,3
+Fly,Suspended,Isolated,Push,Chest,2
+Clap Push-up,Plyometric,Compound,Push,Chest,4
+Depth Push-up,Plyometric,Compound,Push,Chest,3
+Incline Bench Press,Barbell,Compound,Push,Chest,3
+Incline Bench Press,Cable,Compound,Push,Chest,3
+Incline Chest Press,Cable,Compound,Push,Chest,3
+Incline Fly,Cable,Isolated,Push,Chest,2
+Incline Bench Press,Dumbbell,Compound,Push,Chest,3
+Incline Fly,Dumbbell,Isolated,Push,Chest,2
+Incline Chest Press,Lever (plate loaded),Compound,Push,Chest,3
+Incline Chest Press:  on Military Press Machine,Lever (plate loaded),Compound,Push,Chest,3
+Incline Bench Press,Lever (selectorized),Compound,Push,Chest,3
+Incline Chest Press,Lever (selectorized),Compound,Push,Chest,3
+Incline Fly,Lever (selectorized),Compound,Push,Chest,2
+Incline Bench Press,Smith,Compound,Push,Chest,3
+Decline Push-up,Body Weight,Compound,Push,Chest,3
+Decline Push-up:  on stability ball,Body Weight,Compound,Push,Chest,4
+Chest Dip ,Assisted  Chest Dip  ,Compound,Push,Chest,3
+Standing Fly ,Cable  Standing Fly  ,Isolated,Push,Chest,2
+Chest Dip ,Lever (selectorized)  Chest Dip  ,Compound,Push,Chest,3
+Chest Dip ,Weighted  Chest Dip  ,Compound,Push,Chest,3
+Incline Shoulder Raise,Barbell,Isolated,Push,Chest,2
+Incline Shoulder Raise,Cable,Isolated,Push,Chest,2
+Incline Shoulder Raise,Dumbbell,Isolated,Push,Chest,2
+Incline Shoulder Raise,Lever (plate loaded),Isolated,Push,Chest,2
+Incline Shoulder Raise,Lever (selectorized),Isolated,Push,Chest,2
+Incline Shoulder Raise,Smith,Isolated,Push,Chest,2
+Push-up Plus,Body Weight,Isolated,Push,Chest,3
+Bent Knee Good-morning,Barbell,Isolated,Pull,Hips,3
+Deadlifts,Barbell,Compound,Pull,Hips,5
+"Deadlifts:  Stiff-leg Deadlift
+
+Straight-back
+
+",Barbell,Compound,Pull,Hips,4
+Hip Thrust,Barbell,Compound,Pull,Hips,3
+Lunge,Barbell,Compound,Push,Hips,3
+Lunge:  Rear Lunge,Barbell,Compound,Push,Hips,3
+Single Leg Split Squat,Barbell,Compound,Push,Hips,4
+Single Leg Split Squat:  Single Leg Squat,Barbell,Compound,Push,Hips,4
+Single Leg Split Squat:  Split Squat,Barbell,Compound,Push,Hips,3
+Squat,Barbell,Compound,Push,Hips,4
+Squat:  Front Squat,Barbell,Compound,Push,Hips,4
+Squat:  Full Squat,Barbell,Compound,Push,Hips,5
+Squat:  Safety Squat,Barbell,Compound,Push,Hips,4
+Step-up,Barbell,Compound,Push,Hips,3
+Glute Kickback,Cable,Compound,Push,Hips,2
+Rear Lunge,Cable,Compound,Push,Hips,3
+Split Squat,Cable,Compound,Push,Hips,3
+Split Squat:  Two Arms,Cable,Compound,Push,Hips,3
+Squat,Cable,Compound,Push,Hips,4
+Standing Hip Extension,Cable,Isolated,Push,Hips,2
+Standing Hip Extension:  Bent-over,Cable,Isolated,Push,Hips,2
+Step-up,Cable,Compound,Push,Hips,3
+Stiff-leg Deadlift,Cable,Compound,Pull,Hips,4
+Stiff-leg Deadlift:  Straight-back,Cable,Isolated,Pull,Hips,4
+Lunge,Dumbbell,Compound,Push,Hips,3
+Lunge:  Rear Lunge,Dumbbell,Compound,Push,Hips,3
+Split Squat,Dumbbell,Compound,Push,Hips,3
+Squat,Dumbbell,Compound,Push,Hips,4
+Squat:  Front Squat,Dumbbell,Compound,Push,Hips,4
+Step-up,Dumbbell,Compound,Push,Hips,3
+Step-up:  Step Down,Dumbbell,Compound,Push,Hips,3
+Deadlift,Lever (plate loaded),Compound,Pull,Hips,5
+"Deadlift:  Stiff-leg Deadlift
+
+Straight-back
+
+",Lever (plate loaded),Compound,Pull,Hips,4
+Leg Presses,Lever (plate loaded),Compound,Push,Hips,3
+Leg Presses:  45° Leg Press,Lever (plate loaded),Compound,Push,Hips,3
+Leg Presses:  Lying Leg Press,Lever (plate loaded),Compound,Push,Hips,3
+Leg Presses:  Seated Leg Press,Lever (plate loaded),Compound,Push,Hips,3
+Lying Hip Extension,Lever (plate loaded),Isolated,Push,Hips,2
+Reverse Hyper-extension,Lever (plate loaded),Isolated,Push,Hips,3
+Single Leg Split Squat,Lever (plate loaded),Compound,Push,Hips,4
+Single Leg Split Squat:  Single Leg Squat,Lever (plate loaded),Compound,Push,Hips,4
+Split Squat,Lever (plate loaded),Compound,Push,Hips,3
+Squat,Lever (plate loaded),Compound,Push,Hips,4
+Squat:  Front Squat,Lever (plate loaded),Compound,Push,Hips,4
+Hip Extensions,Lever (selectorized),Isolated,Push,Hips,2
+Hip Extensions:  Bent-over,Lever (selectorized),Isolated,Push,Hips,2
+Hip Extensions:  Lying,Lever (selectorized),Isolated,Push,Hips,2
+"Hip Extensions:  Standing
+
+alternative machine
+
+",Lever (selectorized),Isolated,Push,Hips,2
+Leg Presses,Lever (selectorized),Compound,Push,Hips,3
+Leg Presses:  Seated Leg Press,Lever (selectorized),Compound,Push,Hips,3
+Glute Kickback,Lever (selectorized),Compound,Push,Hips,2
+Glute Kickback:  Bent-over,Lever (selectorized),Compound,Push,Hips,2
+Glute Kickback:  Kneeling,Lever (selectorized),Compound,Push,Hips,2
+Glute Kickback:  Standing,Lever (selectorized),Compound,Push,Hips,2
+Squat,Lever (selectorized),Compound,Push,Hips,4
+Squat:  V-Squat,Lever (selectorized),Compound,Push,Hips,4
+Leg Presses,Sled,Compound,Push,Hips,3
+Leg Presses:  45° Leg Press,Sled,Compound,Push,Hips,3
+Leg Presses:  Lying Leg Press,Sled,Compound,Push,Hips,3
+Leg Presses:  Seated Leg Press,Sled,Compound,Push,Hips,3
+Glute Kickback,Sled,Compound,Push,Hips,2
+Glute Kickback:  Kneeling,Sled,Compound,Push,Hips,2
+Glute Kickback:  Standing,Sled,Compound,Push,Hips,2
+Squat,Sled,Compound,Push,Hips,4
+Squat:  Hack Squat,Sled,Compound,Push,Hips,4
+Deadlift,Smith,Compound,Pull,Hips,5
+"Deadlift:  Stiff-leg Deadlift
+
+Straight-back
+
+",Smith,Compound,Pull,Hips,4
+Rear Lunge,Smith,Compound,Push,Hips,3
+Squat,Smith,Compound,Push,Hips,4
+Reverse Hyper-extension,Weighted,Isolated,Push,Hips,3
+Single Leg Squat,Weighted,Compound,Push,Hips,4
+Lunge,Body Weight,Compound,Push,Hips,3
+Rear Lunge,Body Weight,Compound,Push,Hips,3
+Single Leg Squat,Body Weight,Compound,Push,Hips,4
+Split Squat,Body Weight,Compound,Push,Hips,3
+Split Squat:  Single Leg Split Squat,Body Weight,Compound,Push,Hips,4
+Single Leg Stiff Leg Deadlift,Body Weight,Isolated,Pull,Hips,4
+Squat,Body Weight,Compound,Push,Hips,4
+Step-up,Body Weight,Compound,Push,Hips,3
+Step-up:  Step Down,Body Weight,Compound,Push,Hips,3
+Single Leg Squat (leg wrapped),Self-assisted,Compound,Push,Hips,4
+Step Down,Self-assisted,Compound,Push,Hips,3
+Hip Bridge,Suspended,Isolated,Push,Hips,2
+Single Leg Squat,Suspended,Compound,Push,Hips,4
+Single Leg Split Squat,Suspended,Compound,Push,Hips,4
+Hip Abduction,Cable,Isolated,Push,Hips,2
+Seated Hip Internal Rotation,Cable,Isolated,Pull,Hips,1
+Lying Hip Abduction,Dumbbell,Isolated,Push,Hips,2
+Seated Hip Abduction,Lever (plate loaded),Isolated,Push,Hips,2
+Seated Hip Abduction,Lever (selectorized),Isolated,Push,Hips,2
+Standing Hip Abduction,Lever (selectorized),Isolated,Push,Hips,2
+Lying Hip Abduction,Weighted,Isolated,Push,Hips,2
+Twist,Cable (pull side),Isolated,Pull,Hips,2
+Hip Abduction,Suspended,Isolated,Push,Hips,2
+Side Bend,Suspended,Isolated,Pull,Hips,2
+Assisted Wheel Rollout,Cable,Isolated,Pull,Hips,3
+Lying Leg Raise,Cable,Isolated,Pull,Hips,2
+Lying Leg Raise:  on bench,Cable,Isolated,Pull,Hips,2
+Lying Leg Raise:  Straight Leg,Cable,Isolated,Pull,Hips,3
+Standing Leg Raise,Cable,Isolated,Pull,Hips,2
+Standing Leg Raise:  Straight Leg,Cable,Isolated,Pull,Hips,3
+Hip Flexion,Lever,Isolated,Pull,Hips,2
+Lying Leg Raise,Lever,Isolated,Pull,Hips,2
+Vertical Leg Raise,Lever,Isolated,Pull,Hips,4
+Decline Sit-up,Weighted,Isolated,Pull,Hips,3
+Hanging Leg Raise,Weighted,Isolated,Pull,Hips,4
+Hanging Leg Raise:  Straight Leg,Weighted,Isolated,Pull,Hips,5
+Incline Leg Raise,Weighted,Isolated,Pull,Hips,3
+Incline Leg Raise:  arms on pads,Weighted,Isolated,Pull,Hips,3
+Incline Straight Leg Raise,Weighted,Isolated,Pull,Hips,4
+Incline Straight Leg Raise:  arms on pads,Weighted,Isolated,Pull,Hips,4
+Lying Leg Raise,Weighted,Isolated,Pull,Hips,2
+Roman Chair Sit-up,Weighted,Isolated,Pull,Hips,3
+Seated Leg Raise,Weighted,Isolated,Pull,Hips,2
+Vertical Leg Raise,Weighted,Isolated,Pull,Hips,4
+Vertical Leg Raise:  on Parallel Bars,Weighted,Isolated,Pull,Hips,4
+Vertical Leg Raise:  Straight Leg,Weighted,Isolated,Pull,Hips,5
+Leg Raises,Body Weight,Isolated,Pull,Hips,3
+"Leg Raises:  Hanging Leg Raise
+
+with ab straps
+Straight Leg
+
+",Body Weight,Isolated,Pull,Hips,5
+"Leg Raises:  Incline Leg Raise
+
+arms on pads
+
+",Body Weight,Isolated,Pull,Hips,3
+"Leg Raises:  Incline Straight Leg Raise
+
+arms on pads
+
+",Body Weight,Isolated,Pull,Hips,4
+"Leg Raises:  Lying Leg Raise
+
+Alternating
+on floor
+
+",Body Weight,Isolated,Pull,Hips,2
+"Leg Raises:  Lying Straight Leg Raise
+
+Alternating
+
+",Body Weight,Isolated,Pull,Hips,3
+Leg Raises:  Seated Leg Raise,Body Weight,Isolated,Pull,Hips,2
+"Leg Raises:  Vertical Leg Raise
+
+on parallel bars
+Straight Leg
+
+",Body Weight,Isolated,Pull,Hips,5
+Jack-knife on Ball,Body Weight,Isolated,Pull,Hips,3
+Roman Chair Sit-up,Body Weight,Isolated,Pull,Hips,3
+Scissor Kick,Body Weight,Isolated,Pull,Hips,3
+Wheel,Body Weight,Isolated,Pull,Hips,3
+Wheel:  Jack-Knife,Body Weight,Isolated,Pull,Hips,4
+Wheel:  Rollout,Body Weight,Isolated,Pull,Hips,4
+Wheel:  Pike,Body Weight,Isolated,Pull,Hips,4
+Discs,Body Weight,Isolated,Pull,Hips,3
+Discs:  Pike,Body Weight,Isolated,Pull,Hips,4
+Mountain Climber,Suspended,Compound,Pull,Hips,3
+Pike,Suspended,Isolated,Pull,Hips,3
+Lunge,Barbell,Compound,Push,Thighs,3
+Lunge:  Rear Lunge,Barbell,Compound,Push,Thighs,3
+Single Leg Split Squat,Barbell,Compound,Push,Thighs,4
+Single Leg Split Squat:  Side Split Squat,Barbell,Compound,Push,Thighs,4
+Single Leg Split Squat:  Single Leg Squat,Barbell,Compound,Push,Thighs,5
+Squat,Barbell,Compound,Push,Thighs,3
+Squat:  Front Squat,Barbell,Compound,Push,Thighs,4
+Squat:  Trap Bar Squat,Barbell,Compound,Push,Thighs,3
+Step-up,Barbell,Compound,Push,Thighs,3
+Rear Lunge,Cable,Compound,Push,Thighs,3
+Split Squat,Cable,Compound,Push,Thighs,3
+Squat,Cable,Compound,Push,Thighs,3
+Step Down,Cable,Compound,Push,Thighs,3
+Step-up,Cable,Compound,Push,Thighs,3
+Lunge,Dumbbell,Compound,Push,Thighs,3
+Lunge:  Rear Lunge,Dumbbell,Compound,Push,Thighs,3
+Split Squat,Dumbbell,Compound,Push,Thighs,3
+Squat,Dumbbell,Compound,Push,Thighs,3
+Squat:  Front Squat,Dumbbell,Compound,Push,Thighs,4
+Step-up,Dumbbell,Compound,Push,Thighs,3
+Step-up:  Step Down,Dumbbell,Compound,Push,Thighs,3
+Leg Presses,Lever (plate loaded),Compound,Push,Thighs,3
+Leg Presses:  45° Leg Press,Lever (plate loaded),Compound,Push,Thighs,3
+Leg Presses:  Lying Leg Press,Lever (plate loaded),Compound,Push,Thighs,3
+Leg Presses:  Seated Leg Press,Lever (plate loaded),Compound,Push,Thighs,3
+Single Leg Squat (plate loaded),Lever (plate loaded),Compound,Push,Thighs,4
+Split Squat,Lever (plate loaded),Compound,Push,Thighs,3
+Squat,Lever (plate loaded),Compound,Push,Thighs,3
+Squat:  Barbell Machine,Lever (plate loaded),Compound,Push,Thighs,3
+Leg Extension,Lever (selectorized),Isolated,Push,Thighs,2
+Leg Presses,Lever (selectorized),Compound,Push,Thighs,3
+Leg Presses:  Seated Leg Press,Lever (selectorized),Compound,Push,Thighs,3
+Squat,Lever (selectorized),Compound,Push,Thighs,3
+V-Squat,Lever (selectorized),Compound,Push,Thighs,3
+Leg Presses,Sled,Compound,Push,Thighs,3
+Leg Presses:  45° Leg Press,Sled,Compound,Push,Thighs,3
+Leg Presses:  Lying Leg Press,Sled,Compound,Push,Thighs,3
+Leg Presses:  Seated Leg Press,Sled,Compound,Push,Thighs,3
+Squat,Sled,Compound,Push,Thighs,3
+Squat:  Hack Squat,Sled,Compound,Push,Thighs,3
+Rear Lunge,Smith,Compound,Push,Thighs,3
+Squat,Smith,Compound,Push,Thighs,3
+Single Leg Squat,Weighted,Compound,Push,Thighs,5
+Rear Lunge,Body Weight,Compound,Push,Thighs,3
+Lunge,Body Weight,Compound,Push,Thighs,3
+Single Leg Squat,Body Weight,Compound,Push,Thighs,5
+Single Leg Squat:  Box,Body Weight,Compound,Push,Thighs,4
+Split Squat,Body Weight,Compound,Push,Thighs,3
+Split Squat:  Single Leg Split Squat,Body Weight,Compound,Push,Thighs,4
+Squat,Body Weight,Compound,Push,Thighs,3
+Step-up,Body Weight,Compound,Push,Thighs,3
+Step-up:  Step-down,Body Weight,Compound,Push,Thighs,3
+Single Leg Squat (leg wrapped),Self-assisted,Compound,Push,Thighs,4
+Squat,Self-assisted,Compound,Push,Thighs,3
+Step Down,Self-assisted,Compound,Push,Thighs,3
+Single Leg Squat,Suspended,Compound,Push,Thighs,5
+Single Leg Split Squat,Suspended,Compound,Push,Thighs,4
+Glute-Ham Raise,Barbell,Isolated,Pull,Thighs,4
+Good-morning,Barbell,Isolated,Pull,Thighs,3
+Hyperextension,Barbell,Compound,Pull,Thighs,2
+Hyperextension (45°),Barbell,Compound,Pull,Thighs,2
+Straight-leg Deadlift,Barbell,Compound,Pull,Thighs,3
+Straight-leg Deadlift:  Straight-back,Barbell,Isolated,Pull,Thighs,3
+Lying Leg Curl,Cable,Isolated,Pull,Thighs,2
+Standing Leg Curl,Cable,Compound,Pull,Thighs,2
+Straight-back Straight-leg Deadlift,Cable,Isolated,Pull,Thighs,3
+Straight-back Straight-leg Deadlift,Dumbbell,Isolated,Pull,Thighs,3
+Kneeling Leg Curl,Lever (plate loaded),Isolated,Pull,Thighs,2
+Seated Leg Curl,Lever (plate loaded),Isolated,Pull,Thighs,2
+Straight-back Straight-leg Deadlift,Lever (plate loaded),Isolated,Pull,Thighs,3
+Bent-over Leg Curl,Lever (selectorized),Isolated,Pull,Thighs,2
+Kneeling Leg Curl,Lever (selectorized),Isolated,Pull,Thighs,2
+Lying Leg Curl,Lever (selectorized),Isolated,Pull,Thighs,2
+Seated Leg Curl,Lever (selectorized),Isolated,Pull,Thighs,2
+Standing Leg Curl,Lever (selectorized),Isolated,Pull,Thighs,2
+Good-morning,Smith,Isolated,Pull,Thighs,3
+Straight-back Straight-leg Deadlift,Smith,Isolated,Pull,Thighs,3
+Glute-Ham Raise,Weighted,Isolated,Pull,Thighs,4
+Hyperextension,Weighted,Compound,Pull,Thighs,2
+Hyperextension (45°),Weighted,Compound,Pull,Thighs,2
+Hamstring Raise,Band-assisted,Compound,Pull,Thighs,3
+Glute-Ham Raise,Body Weight,Isolated,Pull,Thighs,4
+Glute-Ham Raise:  hands behind hips,Body Weight,Isolated,Pull,Thighs,4
+Single Leg Hanging Hamstring Bridge,Body Weight,Isolated,Pull,Thighs,4
+Single Leg 45° Hyperextension,Body Weight,Isolated,Pull,Thighs,3
+Straight Hip Leg Curl (on ball),Body Weight,Isolated,Pull,Thighs,3
+Inverse Leg Curl,Self-assisted,Isolated,Pull,Thighs,3
+Leg Curl,Suspended,Isolated,Pull,Thighs,2
+Hanging Leg Curl,Suspended,Isolated,Pull,Thighs,3
+Straight Hip Leg Curl,Suspended,Isolated,Pull,Thighs,3
+Hip Adduction,Cable,Isolated,Pull,Thighs,2
+Seated Hip Adduction,Lever (plate loaded),Isolated,Pull,Thighs,2
+Seated Hip Adduction,Lever (selectorized),Isolated,Pull,Thighs,2
+Standing Hip Adduction,Lever (selectorized),Isolated,Pull,Thighs,2
+Lying Hip Adduction,Weighted,Isolated,Pull,Thighs,2
+Standing Calf Raise,Barbell,Isolated,Push,Calves,2
+Standing Calf Raise,Cable,Isolated,Push,Calves,2
+Standing Calf Raise:  One Arm Single Leg Calf Raise,Cable,Isolated,Push,Calves,3
+Standing Calf Raise,Dumbbell,Isolated,Push,Calves,2
+Standing Calf Raise:  Single Leg,Dumbbell,Isolated,Push,Calves,3
+45° Calf Press,Lever (plate loaded),Isolated,Push,Calves,3
+Calf Extension,Lever (plate loaded),Isolated,Push,Calves,2
+Seated Calf Press,Lever (plate loaded),Isolated,Push,Calves,2
+Standing Calf Raise,Lever (plate loaded),Isolated,Push,Calves,2
+45° Calf Raise,Lever (selectorized),Isolated,Push,Calves,3
+Calf Extension,Lever (selectorized),Isolated,Push,Calves,2
+Donkey Calf Raise,Lever (selectorized),Isolated,Push,Calves,3
+Seated Calf Press,Lever (selectorized),Isolated,Push,Calves,2
+Standing Calf Raise,Lever (selectorized),Isolated,Push,Calves,2
+45° Calf Press,Sled,Isolated,Push,Calves,3
+45° Calf Raise,Sled,Isolated,Push,Calves,3
+Donkey Calf Raise,Sled,Isolated,Push,Calves,3
+Lying Calf Press,Sled,Isolated,Push,Calves,2
+Seated Calf Press,Sled,Isolated,Push,Calves,2
+Standing Calf Raise,Sled,Isolated,Push,Calves,2
+Donkey Calf Raise,Smith,Isolated,Push,Calves,3
+Standing Calf Raise,Smith,Isolated,Push,Calves,2
+Single Leg Calf Raise,Weighted,Isolated,Push,Calves,3
+Standing Calf Raise,Body Weight,Isolated,Push,Calves,2
+Standing Calf Raise:  Single Leg,Body Weight,Isolated,Push,Calves,3
+Single Leg Calf Raise,Self-assisted,Isolated,Push,Calves,3
+Forward Angled Single Leg Calf Raise,Suspended,Isolated,Push,Calves,3
+Safety Barbell Seated Calf Raise,Barbell,Isolated,Push,Calves,2
+Seated Calf Raise,Lever (plate loaded),Isolated,Push,Calves,2
+Seated Calf Raise,Lever (selectorized),Isolated,Push,Calves,2
+Seated Calf Raise,Smith,Isolated,Push,Calves,2
+Safety Bar Reverse Calf Raise,Barbell,Isolated,Pull,Calves,3
+Reverse Calf Raise,Cable,Isolated,Pull,Calves,2
+Reverse Calf Raise:  Single Leg,Cable,Isolated,Pull,Calves,3
+Reverse Calf Raise,Dumbbell,Isolated,Pull,Calves,2
+Reverse Calf Raise:  Single Leg,Dumbbell,Isolated,Pull,Calves,3
+45° Reverse Calf Press,Lever (plate loaded),Isolated,Pull,Calves,3
+45° Reverse Calf Raise,Lever (plate loaded),Isolated,Pull,Calves,3
+Reverse Calf Raise,Lever (plate loaded),Isolated,Pull,Calves,2
+Reverse Calf Extension,Lever (plate loaded),Isolated,Pull,Calves,2
+Reverse Calf Extension,Lever (selectorized),Isolated,Pull,Calves,2
+Reverse Calf Raise,Lever (selectorized),Isolated,Pull,Calves,2
+45° Reverse Calf Press,Sled,Isolated,Pull,Calves,3
+45° Reverse Calf Raise (plate loaded),Sled,Isolated,Pull,Calves,3
+45° Reverse Calf Raise (on hack press),Sled,Isolated,Pull,Calves,3
+Hack Reverse Calf Raise,Sled,Isolated,Pull,Calves,3
+Lying Reverse Calf Press,Sled,Isolated,Pull,Calves,2
+Seated Reverse Calf Press,Sled,Isolated,Pull,Calves,2
+Reverse Calf Raise,Smith,Isolated,Pull,Calves,2
+Reverse Calf Raise,Body Weight,Isolated,Pull,Calves,2
+Reverse Calf Raise:  Single Leg,Body Weight,Isolated,Pull,Calves,3
